@@ -10,10 +10,12 @@ Maximising hotel revenue while preventing the pitfalls of overbooking is a compl
     - Remove rows with Nan values in the "Country" column
     - Create a new binary (0 or 1) column **'agent_encoded'** & **'company_encoded'** indicating whether the reservation was done through **an agent or not (1 for without agent, 0 for with agent)** & **a company (1 for without company, 0 for through company)**
 
+
 2. Identifying Relationships
   - Bar charts of variables against 'is_canceled'
   - Chi-square test: To test the relationship between 'is_canceled' and other categorical variables
   - Correlation of Variables: To test the relationship between 'is_canceled' and other numerical variables
+
 
 3. Feature Selection
   - Based on the EDA that we’ve done previously, we found that these attributes have obtained reasonably high Chi-Square & Correlation values against 'is_canceled':
@@ -27,8 +29,10 @@ Maximising hotel revenue while preventing the pitfalls of overbooking is a compl
     - Agent_encoded
     - Company_encoded
     - Arrival_date_week_number
+
    
 4. Standardising values of the selected features
+
    
 5. One-Hot encoding on categorical variables of the selected features
 
