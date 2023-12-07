@@ -15,6 +15,6 @@ Maximising hotel revenue while preventing the pitfalls of overbooking is a compl
 
 **Justifications**
 - Based on my findings, Feedforward Neural Network seems to be the most appropriate model to use to predict hotel booking cancellations!
-- Even though Decision Tree produced the highest precicion score, it is worth noting that the model is extremely prone to overfitting. And that probably resulted in the almost perfect precision score as well
+- Even though Decision Tree produced the highest precicion score, it is worth noting that the model is extremely prone to overfitting. And that probably resulted in the almost perfect precision score as well.
 
 # Finding unseen data (if possible?)
