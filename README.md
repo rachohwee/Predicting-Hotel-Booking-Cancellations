@@ -6,14 +6,15 @@ Maximising hotel revenue while preventing the pitfalls of overbooking is a compl
 # Exploratory Data Analysis (EDA)
 ....
 
-# Models built
-1. Logistic Regression
-2. Decision Tree
-3. Random Forest
-4. Extreme Gradient Boosting (XGBoost)
-5. Feedforward Neural Network (FNN)
-6. Support Vector Diagram
+# Models ranked based on Precision Score
+1. Decision Tree: 0.99
+2. Feedforward Neural Network (FNN): 0.88
+3. Extreme Gradient Boosting (XGBoost): 0.81
+4. Logistic Regression: 0.81
+5. Random Forest: 0.77
 
-# Pass in the Top 3 models, based on Precision, into Hard-Voting Ensemble Method 
+**Justifications**
+- Based on my findings, Feedforward Neural Network seems to be the most appropriate model to use to predict hotel booking cancellations!
+- Even though Decision Tree produced the highest precicion score, it is worth noting that the model is extremely prone to overfitting. And that probably resulted in the almost perfect precision score as well
 
 # Finding unseen data (if possible?)
