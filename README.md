@@ -5,10 +5,10 @@ Maximising hotel revenue while preventing the pitfalls of overbooking is a compl
 
 # Exploratory Data Analysis (EDA) ✍🏻
 1. Data Cleaning
-- Null values:
-  a. Fill null values with its median in the "Children" column
-  b. Remove rows with Nan values in the "Country" column
-  c. Create a new binary (0 or 1) column **'agent_encoded'** & **'company_encoded'** indicating whether the reservation was done through **an agent or not (1 for without agent, 0 for with agent)** & **a company (1 for without company, 0 for through company)**
+  - Null values:
+    - Fill null values with its median in the "Children" column
+    - Remove rows with Nan values in the "Country" column
+    - Create a new binary (0 or 1) column **'agent_encoded'** & **'company_encoded'** indicating whether the reservation was done through **an agent or not (1 for without agent, 0 for with agent)** & **a company (1 for without company, 0 for through company)**
 
 2. Identifying Relationships
 - 
