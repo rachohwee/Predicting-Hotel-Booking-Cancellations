@@ -4,7 +4,15 @@
 Maximising hotel revenue while preventing the pitfalls of overbooking is a complex yet critical challenge in the hospitality industry. The aim of the project is to develop an advanced classification model that accurately predicts hotel reservation cancellations. The model will enable the establishment to strategically manage reservations, effectively allocate resources, and enhance overall revenue generation :-)
 
 # Exploratory Data Analysis (EDA) ✍🏻
-....
+1. Data Cleaning
+- Null values:
+  a. Fill null values with its median in the "Children" column
+  b. Remove rows with Nan values in the "Country" column
+  c. Create a new binary (0 or 1) column **'agent_encoded'** & **'company_encoded'** indicating whether the reservation was done through **an agent or not (1 for without agent, 0 for with agent)** & **a company (1 for without company, 0 for through company)**
+
+2. Identifying Relationships
+- 
+
 
 # Models ranked based on Precision Score 🕵🏻‍♀️
 1. Decision Tree: 0.99
@@ -21,5 +29,5 @@ Maximising hotel revenue while preventing the pitfalls of overbooking is a compl
 # Finding unseen data (if possible?)
 
 
-# Datasets / Resources
+# Dataset(s) / Resource(s)
 1. Hotel Booking Demand Dataset: https://www.kaggle.com/datasets/jessemostipak/hotel-booking-demand/
