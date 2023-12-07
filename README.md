@@ -4,20 +4,18 @@
 Maximising hotel revenue while preventing the pitfalls of overbooking is a complex yet critical challenge in the hospitality industry. The aim of the project is to develop an advanced classification model that accurately predicts hotel reservation cancellations. The model will enable the establishment to strategically manage reservations, effectively allocate resources, and enhance overall revenue generation :-)
 
 # Exploratory Data Analysis (EDA) ✍🏻
-1. Data Cleaning
+- Data Cleaning
   - Null values:
     - Fill null values with its median in the "Children" column
     - Remove rows with Nan values in the "Country" column
     - Create a new binary (0 or 1) column **'agent_encoded'** & **'company_encoded'** indicating whether the reservation was done through **an agent or not (1 for without agent, 0 for with agent)** & **a company (1 for without company, 0 for through company)**
 
-
-2. Identifying Relationships
+- Identifying Relationships
   - Bar charts of variables against 'is_canceled'
   - Chi-square test: To test the relationship between 'is_canceled' and other categorical variables
   - Correlation of Variables: To test the relationship between 'is_canceled' and other numerical variables
 
-
-3. Feature Selection
+- Feature Selection
   - Based on the EDA that we’ve done previously, we found that these attributes have obtained reasonably high Chi-Square & Correlation values against 'is_canceled':
     - Lead_time
     - Country
@@ -30,11 +28,9 @@ Maximising hotel revenue while preventing the pitfalls of overbooking is a compl
     - Company_encoded
     - Arrival_date_week_number
 
-   
-4. Standardising values of the selected features
+- Standardising values of the selected features
 
-   
-5. One-Hot encoding on categorical variables of the selected features
+- One-Hot encoding on categorical variables of the selected features
 
 and moving on to build the models!....
 
