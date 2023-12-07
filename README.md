@@ -11,8 +11,28 @@ Maximising hotel revenue while preventing the pitfalls of overbooking is a compl
     - Create a new binary (0 or 1) column **'agent_encoded'** & **'company_encoded'** indicating whether the reservation was done through **an agent or not (1 for without agent, 0 for with agent)** & **a company (1 for without company, 0 for through company)**
 
 2. Identifying Relationships
-- 
+  - Bar charts of variables against 'is_canceled'
+  - Chi-square test: To test the relationship between 'is_canceled' and other categorical variables
+  - Correlation of Variables: To test the relationship between 'is_canceled' and other numerical variables
 
+3. Feature Selection
+  - Based on the EDA that we’ve done previously, we found that these attributes have obtained reasonably high Chi-Square & Correlation values against 'is_canceled':
+    - Lead_time
+    - Country
+    - Deposit_type
+    - Market_segment
+    - Assigned_room_type
+    - Distribution_channel
+    - Customer_type
+    - Agent_encoded
+    - Company_encoded
+    - Arrival_date_week_number
+   
+4. Standardising values of the selected features
+   
+5. One-Hot encoding on categorical variables of the selected features
+
+and moving on to build the models!....
 
 # Models ranked based on Precision Score 🕵🏻‍♀️
 1. Decision Tree: 0.99
@@ -20,7 +40,6 @@ Maximising hotel revenue while preventing the pitfalls of overbooking is a compl
 3. Extreme Gradient Boosting (XGBoost): 0.81
 4. Logistic Regression: 0.81
 5. Random Forest: 0.77
-
 
 # Findings & Justifications 🔎
 - Based on my findings, Feedforward Neural Network seems to be the most appropriate model to use to predict hotel booking cancellations!
