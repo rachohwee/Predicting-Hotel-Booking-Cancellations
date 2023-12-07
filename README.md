@@ -19,3 +19,7 @@ Maximising hotel revenue while preventing the pitfalls of overbooking is a compl
 - Even though Decision Tree produced the highest precicion score, it is worth noting that the model is extremely prone to overfitting. And that probably resulted in the almost perfect precision score as well.
 
 # Finding unseen data (if possible?)
+
+
+# Datasets / Resources
+1. Hotel Booking Demand Dataset: https://www.kaggle.com/datasets/jessemostipak/hotel-booking-demand/
